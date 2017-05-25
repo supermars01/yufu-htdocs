@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>裕福支付</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/aos.css">
+    <style type="text/css">
+        [aos=fade-down] {
+            -webkit-transform:translate(0,-50px);
+            -ms-transform:translate(0,-50px);
+            transform:translate(0,-50px);
+            -webkit-transition-delay:1s;
+            -webkit-transition-duration:3s
+        }
+        [aos=fade-down].aos-animate {
+            -webkit-transform:translate(0,0);
+            -ms-transform:translate(0,0);
+            transform:translate(0,0)
+        }
+        [aos=fade-in].aos-animate {
+            -webkit-transition-delay:1.5s;
+            -webkit-transition-duration:1s;
+            -webkit-transition-timing-function:ease;
+            opacity: 0;
+        }
+        [aos=fade-in].aos-animate {
+            opacity: 1;
+            -webkit-transform:translate(0,0);
+            -ms-transform:translate(0,0);
+            transform:translate(0,0)
+        }
+        [aos=fade-up].aos-animate {
+            -webkit-transform:translate(0,0);
+            -ms-transform:translate(0,0);
+            transform:translate(0,0);
+        }
+/*        a.btn1{
+            -webkit-transition:none;
+        }*/
+        a.btn1:hover{
+            -webkit-transition:none;
+        }
+
+        /*2017.5.16适配移动端*/
+
+    </style>
+    <script type="text/javascript" src="js/meta.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header-bg"></div>
+        <div class="content">
+            <header>
+                <a class="imgLink" href="index.html"><img src="img/logo-index.png" /></a>
+                <ul class="nav">
+                    <li><a class="nav-active" href="index.html">首页</a></li>
+                    <li><a href="developer.html">开发者中心</a></li>
+                    <li><a href="contactUs.html">联系我们</a></li>
+                </ul>
+                <a href="login.html" class="btn">登录</a>
+                <a href="register.html" class="btn">会员注册</a>
+            </header>
+            <div class="sec-head">
+                <h2 aos="slide-left"><span class="line">|</span>&nbsp;为成长型企业设计的在线支付产品</h2>
+                <h3 aos="fade-down">聚福支付，伴你成长</h3>
+                <div aos="fade-in">
+                    <a href="register.html" class="btn1">会员注册</a>
+                </div>
+                
+                <div><span class="btn-arrow"></span></div>
+            </div>
+            <div class="sec-content">
+                <div class="sec-header" aos="slide-up">
+                    <h2 style="color:#2a55c9">产品特性</h2>
+                    <div class="title-img"></div>
+                    <p class="sec-pt">聚福支付回归本真。会员注册成功即刻开通多种支付渠道，登录后台可在线快速调试接口。</p>
+                </div>
+                <ul class="sec-ul" style="height:510px;" aos="fade-up">
+                    <li >
+                        <h4>更简洁</h4>
+                        <div class="bg sec-pro" data-ibg-bg="img/jianjie.png"></div>
+                        <p>聚福支付系统底层处理了更多的任务，
+                            <br>以确保接口的更加简洁易读。
+                            <br>开发者不必成为支付专家，
+                            <br> 依然可以快速接入聚福支付。</p>
+                    </li>
+                    <li>
+                        <h4>多渠道</h4>
+                        <div class="bg sec-pro" data-ibg-bg="img/dqudao.png"></div>
+                        <p>注册成功，微信支付、支付宝、
+                            <br>1银行卡支付渠道将自动开通。
+                            <br>您可以使用聚福支付的“PC收银台”
+                            <br> 以及“移动收银台”完成最终收款 。</p>
+                    </li>
+                    <li >
+                        <h4>安全稳定</h4>
+                        <div class="bg sec-pro" data-ibg-bg="img/safe.png"></div>
+                        <p>聚福支付使用了RSA加密技术，
+                            <br>以确保每一笔交易都能准确无误的完成。
+                            <br>系统接口支持并发200+次/秒，
+                            <br> 即使交易量的陡然上升，依然应对自如。</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="sec-content wt" style="margin-top:170px">
+                <div class="sec-header" aos="slide-up">
+                    <h2 style="color:#fff">收银台</h2>
+                    <div class="title-img"></div>
+                    <p class="sec-pt sec2">移动端、PC端购物场景、支付渠道、接口演示。</p>
+                </div>
+                <div class="sec2-img">
+                    <div class="secImgBox">
+                        <img class="secImg1" aos="fade-right" style="float:left" src="img/computer.png" width="703">
+                        <img class="secImg2" aos="fade-down" src="img/phone.png" data-aos-delay="300" width="184" style="position:absolute;left:460px;top:213px;">
+                        <div class="sec2-imgr" aos="fade-left">
+                            <ul class="rt">
+                                <li>从这一刻开始，
+                                    <br>只有快捷、安全的收款体验。</li>
+                                <li>H5支付、公众号支付、扫码支付，
+                                    <br>满足不同支付场景的需求。</li>
+                            </ul>
+                            <ul class="rb">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <!-- <li class="txt">（支付方式：微信支付、支付宝、银行卡支付）</li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-content wt wt3">
+                <div class="solve" aos="slide-up">
+                    <h2>平台商支付解决方案</h2>
+                    <div class="title-img"></div>
+                    <p class="sec-pt">一站式解决子商户入驻、多重账务管理、多级返佣、商户结算难题。</p>
+                </div>
+                <div class="sec2-img" style="margin-top:0">
+                    <div class="sec3" aos="fade-right">
+                        <h2>轻松管理子商户</h2>
+                        <img src="img/11.png" width="425">
+                        <p>子商户快速入件，
+                            <br>每一笔交易数据都清晰可查;</p>
+                    </div>
+                    <div class="sec3" aos="fade-left">
+                        <h2>智能清结算系统，合法合规</h2>
+                        <img src="img/12.png" width="425">
+                        <p>全新设计的清结算系统，
+                            <br>可以从多维度设置返佣比例；
+                            <br>规范的资金管理，
+                            <br>确保二次清算合法合规;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-content lt">
+                <div aos="slide-up">
+                    <h2 style="color:#2a55c9">为您构建了高效的企业管理平台</h2>
+                    <div class="title-img"></div>
+                    <p class="sec-pt">基于实时交易数据分析，为企业快速而准确的决策提供依据。</p>
+                </div>
+                <div class="sec2-img">
+                    <ul class="sec-lt-ul">
+                        <li class="fr" aos="slide-left" style="transition-duration: 1.8s;">
+                            <div class="item">
+                                <div class="head-img"><img src="img/01.png" width="62"><span>开发者</span></div>
+                                <p>灵活的在线接口调试工具，</p>
+                                <p>开发者可快速调试参数，</p>
+                                <p>并实时查看调试结果；</p>
+                                <p>使用webHooks工具，</p>
+                                <p>可调试您创建的应用的多个异步消息通知事件。</p>
+                            </div>
+                            <img class="pic" src="img/01.jpg" width="290">
+                        </li>
+                        <li class="fl" aos="slide-right" style="transition-duration: 1.8s;">
+                            <div class="item">
+                                <div class="head-img"><img src="img/02.png" width="62"><span>运营管理人员</span></div>
+                                <p>对于运营管理人员而言，</p>
+                                <p>掌握交易数据变化至关重要。</p>
+                                <p>成长、、裕福支付提供按交易量、渠道、</p>
+                                <p>时间段三种统计维度，</p>
+                                <p>您也可以查看每一笔交易的详细信息。</p>
+                            </div>
+                            <img class="pic" src="img/02.jpg" width="290">
+                        </li>
+                        <li class="fr" aos="slide-left" style="transition-duration: 1.8s;">
+                            <div class="item">
+                                <div class="head-img"><img src="img/03.png" width="62"><span>财务人员</span></div>
+                                <p>每一笔即时到帐的交易资金</p>
+                                <p>让财务人员对账工作变的轻而易举。</p>
+                            </div>
+                            <img class="pic" src="img/03.jpg" width="290">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-ct">
+                    <h2>聚福支付，伴你成长</h2>
+                    <ul class="ft-ul">
+                        <li>
+                            <a href="contactUs.html">
+                                <div class="box">
+                                    <div class="circle"></div>
+                                </div>
+                                <p>联系我们</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="developer.html">
+                                <div class="box">
+                                    <div class="circle"></div>
+                                </div>
+                                <p>开发者中心</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="register.html">
+                                <div class="box">
+                                    <div class="circle"></div>
+                                </div>
+                                <p>会员注册</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="horP">Copyright 2009-2016 YUFU Corporation All Rights Reserved<span class="horLine">|</span>京ICP证101027 | 京ICP备06060349号-2</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="stripes"></div> -->
+        <div id="stripes2"></div>
+        <div id="goTop" class="goTop"></div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/plugins/scrollanim/scrollanim.js"></script>
+    <script type="text/javascript" src="js/jquery-bg/jquery-interactive_bg.js"></script>
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script type="text/javascript">
+    $(window).scroll(function() {
+        var sc = $(window).scrollTop();
+        if (sc > 0) {
+            $("#goTop").css("display", "block");
+        } else {
+            $("#goTop").css("display", "none");
+        }
+    });
+    $("#goTop").click(function() {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 300);
+    });
+    $(".bg").interactive_bg();
+        AOS.init({
+            duration: 1000,
+            once:true
+        });
+    </script>
+</body>
+
+</html>
