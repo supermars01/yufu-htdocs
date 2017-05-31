@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>裕福支付</title>
+    <title>聚福支付</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/aos.css">
@@ -175,18 +175,18 @@
                             </div>
                             <img class="pic" src="img/01.jpg" width="290">
                         </li>
-                        <li class="fl" aos="slide-right" style="transition-duration: 1.8s;">
+                        <li class="fl seconditem" aos="slide-right" style="transition-duration: 1.8s;">
                             <div class="item">
                                 <div class="head-img"><img src="img/02.png" width="62"><span>运营管理人员</span></div>
                                 <p>对于运营管理人员而言，</p>
                                 <p>掌握交易数据变化至关重要。</p>
-                                <p>成长、、裕福支付提供按交易量、渠道、</p>
+                                <p>裕福支付提供按交易量、渠道、</p>
                                 <p>时间段三种统计维度，</p>
                                 <p>您也可以查看每一笔交易的详细信息。</p>
                             </div>
                             <img class="pic" src="img/02.jpg" width="290">
                         </li>
-                        <li class="fr" aos="slide-left" style="transition-duration: 1.8s;">
+                        <li class="fr lastitem" aos="slide-left" style="transition-duration: 1.8s;">
                             <div class="item">
                                 <div class="head-img"><img src="img/03.png" width="62"><span>财务人员</span></div>
                                 <p>每一笔即时到帐的交易资金</p>
@@ -257,6 +257,19 @@
             duration: 1000,
             once:true
         });
+        $(window).scroll(function(){
+　　var scrollTop = $(this).scrollTop();
+　　var scrollHeight = $(document).height();
+　　var windowHeight = $(this).height();
+    var secondTop = $(".seconditem").offset().top;
+    var secondHeight = $(".seconditem").height();
+　　if(scrollTop + windowHeight >= (scrollHeight-150)){
+　　　　$(".seconditem").addClass("aos-animate")
+　　}
+　　if(scrollTop + windowHeight >= scrollHeight){
+　　　　$(".lastitem").addClass("aos-animate")
+　　}
+});
     </script>
 </body>
 

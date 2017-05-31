@@ -4,7 +4,9 @@ body {
 	text-rendering:optimizeLegibility
 }
 .gray-bg2 {
-	background-color:#fefefe
+	background-color:#fefefe;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 header {
 	width:100%
@@ -12,7 +14,7 @@ header {
 header .login-header-main {
 	position:relative;
 	width:1112px;
-	height:76px;
+	height:70px;
 	margin:0 auto
 }
 header.login-h {
@@ -71,7 +73,7 @@ header .login-header-main .nav-btn li {
 	list-style:none
 }
 header .login-header-main .nav-btn li:last-child {
-	margin-right:20px;
+	margin-right:0px;
 	margin-left:6px
 }
 header .login-header-main .nav-btn li a {
